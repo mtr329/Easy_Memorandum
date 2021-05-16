@@ -1,0 +1,9 @@
+
+<view class="listAdd">
+    <button class="listAddBtn" hover-class="btnPress"
+        bindtap="openPage_addEvent">
+        <text class="listAddText"  decode="{{true}}">添加</text>
+        <view class="listAddIcon icon_add"></view>
+    </button>
+</view>
+<view wx:for="{{allEvents}}" wx:for-index="i">{{allEvents[i].type}}</view>

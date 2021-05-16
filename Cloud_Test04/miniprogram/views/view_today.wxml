@@ -1,0 +1,20 @@
+<view class="addEvent">
+    <button class="addEventBtn" hover-class="btnPress"
+        bindtap="openPage_addEvent">
+        <text class="addEventText"  decode="{{true}}">添加</text>
+        <view class="addEventIcon icon_add"></view>
+    </button>
+</view>
+<view class="todayDisplay">
+    <view class="todayCell">
+        <view class="todayItem">
+            <view class="todayItemText">学习学习学习学习学习</view>
+            <view class="todayItemBtns">
+                <button class="todayItemBtn icon_search" size="mini" bindtap="doDetail"></button>
+                <button class="todayItemBtn icon_yes" size="mini" bindtap="doFinish"></button>
+                <button class="todayItemBtn icon_delay" size="mini" bindtap="doDelay"></button>
+                <button class="todayItemBtn icon_no" size="mini" bindtap="doDelete"></button>
+            </view>
+        </view>
+    </view>
+</view>

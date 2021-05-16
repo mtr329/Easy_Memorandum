@@ -1,0 +1,43 @@
+.listAdd{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10%;
+    order: -1;
+    /* box-sizing: border-box;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid; */
+}
+.btnPress{
+    background-color: #D2D2D2 !important;
+}
+.listAddBtn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    height: 75%;
+    width: 100% !important;
+    border-radius: 100rpx;
+    
+}
+.listAddIcon{
+    background-repeat: no-repeat;  
+    background-size: 10%;     
+    background-position: right;
+    height: 120%;
+    width: 80%;
+}
+.listAddText{
+    left:10%;
+    color: black;
+    text-align: center;
+    font-size: 90%;
+}
+.listUnit{
+    display: flex;
+    height: 15%;
+    justify-content: center;
+}
+
